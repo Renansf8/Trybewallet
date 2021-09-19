@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: #004643;
+  color: #e8e4e6;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  height: 70px;
+}
+
+.user-info {
+  display: flex;
+  margin-right: 16px;
+  align-items: center;
+}
+
+.user-info .user-email {
+  margin-right: 16px;
+}
+
+.user-info p {
+  margin: 0 6px;
+}
+
+.email {
+  color: #e8e4e6;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.total-sum {
+  color: #e8e4e6;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+@media screen and  ( max-width: 600px ) {
+  
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+}

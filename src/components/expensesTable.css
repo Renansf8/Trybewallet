@@ -1,0 +1,140 @@
+.expenses-table {
+  border-collapse: collapse;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.expenses-table thead tr {
+  background-color: #bbb8ba;
+  color: #001e1d;
+  text-align: center;
+}
+
+.expenses-table th , .expenses-table td {
+  color: #e8e4e6;
+  padding: 4px 16px;
+  text-align: center;
+}
+
+.expenses-table thead th {
+  color: #001e1d;
+}
+
+.expenses-table tbody tr {
+  border-bottom: 1px solid #abd1c6;
+  animation: blinker 1s linear;
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 0;
+  }
+}
+
+.expenses-table tbody tr:nth-of-type( even ) {
+  background-color: #001e1d;
+}
+
+.expenses-table tbody td button {
+  background-color: #e16162;
+  border: 1px solid #e16162;
+  border-radius: 4px;
+  color: #fffffe;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 8px 4px;
+  padding: 4px;
+  transition: background-color 0.2s;
+}
+
+.expenses-table tbody td button:hover {
+  background-color: #e44c4c;
+}
+
+.expenses-table tbody td button:active {
+  transform: scale(0.98);
+}
+
+.expenses-table tbody button svg {
+  font-size: 18px;
+}
+
+.expenses-table tbody td .edit-btn {
+  background-color: #f9bc60;
+  border: 1px solid #f9bc60;
+}
+
+.expenses-table tbody td .edit-btn:hover {
+  background-color: #e9aa4c;
+}
+
+.desc-minwitdh {
+  display: none;
+}
+
+@media screen and ( min-width: 460px ) and ( max-width: 600px)  {
+
+  .expenses-table thead tr {
+    display: none;
+  }
+
+  .expenses-table tbody tr {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+  }
+
+  .expenses-table tbody tr td {
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    border-bottom: 1px solid #b9b6b6;
+    animation: blinker 1s linear;
+  }
+
+  @keyframes blinker {
+    0% {
+      opacity: 0;
+    }
+  }
+
+  .expenses-table {
+    display: flex;
+  }
+
+  .desc-minwitdh {
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+  }
+}
+
+@media screen and  ( max-width: 460px ) {
+
+  .expenses-table thead tr {
+    display: none;
+  }
+
+  .expenses-table tbody tr {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    width: 360px;
+  }
+
+  .expenses-table tbody tr td {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #b9b6b6;
+  }
+
+  .expenses-table {
+    display: flex;
+  }
+
+  .desc-minwitdh {
+    display: inline;
+  }
+}
