@@ -4,7 +4,7 @@
 
 <h2><a href="https://renansf8.github.io/trybewallet">Visite o site do projeto</a></h2>
 
-obs: Ao entrar no site do projeto, na tela de login, basta digitar um e-mail válido e uma senha com pelo menos 6 caracteres.
+**obs: Ao entrar no site do projeto, na tela de login, basta digitar um e-mail válido e uma senha com pelo menos 6 caracteres.**
 
 ## 📗 Sobre
 **O Trybewallet** é um app para o controle de gastos, foi utilizado uma API de conversão de moedas para que o usuário pudesse ter os valores convertidos em BRL apesar de utilizar outras moedas.
