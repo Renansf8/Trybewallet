@@ -9,7 +9,7 @@
 ## 📗 Sobre
 **O Trybewallet** é um app para o controle de gastos, foi utilizado uma [API](https://lnkd.in/dMM_nYRY) de conversão de moedas para que o usuário pudesse ter os valores convertidos em BRL apesar de utilizar outras moedas.
 
-## 🧑‍💻 Tecnologias
+## 🧑‍💻 Tecnologias utilizadas
  - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
  - [React](https://pt-br.reactjs.org/docs/getting-started.html)
  - [Redux](https://redux.js.org/)
