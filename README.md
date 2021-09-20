@@ -7,7 +7,7 @@
 **obs: Ao entrar no site do projeto, na tela de login, basta digitar um e-mail válido e uma senha com pelo menos 6 caracteres.**
 
 ## 📗 Sobre
-**O Trybewallet** é um app para o controle de gastos, foi utilizado uma API de conversão de moedas para que o usuário pudesse ter os valores convertidos em BRL apesar de utilizar outras moedas.
+**O Trybewallet** é um app para o controle de gastos, foi utilizado uma [API](https://lnkd.in/dMM_nYRY) de conversão de moedas para que o usuário pudesse ter os valores convertidos em BRL apesar de utilizar outras moedas.
 
 ## 🧑‍💻 Tecnologias
  - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
